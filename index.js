@@ -87,9 +87,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Inventory server is runnung successfully')
+    res.send('Todo server is runnung successfully')
 });
 
 app.listen(port, () => {
-    console.log('Inventory server is runnung on  port', port);
+    console.log('Todo server is runnung on  port', port);
 })
